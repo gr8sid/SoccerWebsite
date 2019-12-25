@@ -43,6 +43,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Assignment05", "..\..\..\..
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "16980"
+		SlnRelativePath = "..\..\..\..\..\Centennial College Winter 18\DotNet\Assignments\Assignment05\"
 	EndProjectSection
 EndProject
 Global
