@@ -25,6 +25,26 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SoccerLeagueWebsite", "Socc
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Assignment05", "..\..\..\..\..\Centennial College Winter 18\DotNet\Assignments\Assignment05\", "{CCB269A9-27C5-4BEA-9580-9C73ECF502EA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_16980"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Centennial College Winter 18\DotNet\Assignments\Assignment05\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_16980\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_16980"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Centennial College Winter 18\DotNet\Assignments\Assignment05\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_16980\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "16980"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +52,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EC8DA0CB-144B-4BED-B0C3-D4B1A1A2ADB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC8DA0CB-144B-4BED-B0C3-D4B1A1A2ADB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB269A9-27C5-4BEA-9580-9C73ECF502EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB269A9-27C5-4BEA-9580-9C73ECF502EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
