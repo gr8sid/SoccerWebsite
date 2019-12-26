@@ -1,0 +1,58 @@
+﻿<%--Name: Sidharth Choudhary    Student#- 300990285--%>
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+
+
+<body style="margin:0px" class="bg">
+   
+    
+    
+    <img src ="IMAGES/emptybg.png"  style="height: 252px; position: absolute; width: 100%; margin:0px; top: 7px; left: 0px;" />  
+   
+    <h1 class="bannerinit" style="color:seagreen; font-family: 'Monotype Corsiva'">
+       C </h1>
+   
+    <h1 class="bannertext" style="color:whitesmoke; font-family:'Comic Sans MS'">
+      entSoccerLeague </h1>
+    
+    <a class="homeset"  href="Home.aspx" style=" text-decoration:none;"> Home</a>
+    <a class="clubset" href="Clubs.aspx"  style=" text-decoration:none;">Clubs</a>
+    <a class="addclubset" href="AddClub.aspx"  style=" text-decoration:none;">Add Club</a>
+    <a class="resultset" href="Results.aspx"  style=" text-decoration:none">Results</a>
+    <a class="scheduleset" href="MatchScheduling.aspx"  style=" text-decoration:none;"> Match Scheduling</a>
+    
+   <div class="slogan" style="font-family:'Comic Sans MS';margin-left:63%;margin-top:20% ">
+        ONE TEAM ...<br /> ONE DREAM !!!
+    </div>
+
+    <div class="sidebar">
+        <asp:ContentPlaceHolder id="SideContentPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    <img src ="IMAGES/CSL_Logo.png" style="border:ridge; border-color:black;" class="logo"/>
+   
+
+     <div class="divMain" style="height:1200px">
+        <asp:ContentPlaceHolder id="MainContentPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+   </div>
+     <div class="footer" style="bottom:-150%">
+        &copy;2018-"CSL18"
+        <asp:ContentPlaceHolder id="FooterContentPlaceHolder" runat="server">
+             
+        </asp:ContentPlaceHolder>
+    </div>
+
+</body>
+</html>
+<%--Name: Sidharth Choudhary    Student#- 300990285--%>

@@ -1,0 +1,172 @@
+﻿.bannertext{
+             position: absolute;
+            top:1%;
+            left:30%;
+            font-size:4.5em;
+            -webkit-text-stroke: 3px;
+            -webkit-text-stroke-color:darkgreen;
+            color:whitesmoke; 
+            font-family:'Comic Sans MS';
+            }
+
+.bannerinit{
+    color:seagreen; 
+            font-family: 'Monotype Corsiva';
+            position: absolute;
+            top:-3%;
+            left:27%;
+            font-size:7.28em;
+            -webkit-text-stroke: 5px black;
+            }
+
+.ref
+{
+    font-size:30px;
+    text-decoration:none; 
+    color:#3E2723;
+    border-color:#3E2723;
+}
+
+a:hover{
+        color:aquamarine;
+        text-shadow: 0 0 2px white;
+       }
+       
+.homeset{
+         position: absolute;
+         top: 6em;
+         left: 11%;
+         font-size:2.188em;
+         color:aliceblue;
+        }
+
+.clubset {
+          position: absolute;
+          top: 6em;
+          left: 27%;
+          font-size: 2.188em;
+          color: aliceblue;
+         }
+
+.addclubset {
+            position: absolute;
+            top: 6em;
+            left: 44%;
+            font-size: 2.188em;
+            color: aliceblue;
+            }
+
+.resultset {
+            position: absolute;
+            top: 6em;
+            right: 30%;
+            font-size: 2.188em;
+            color: aliceblue;
+            }
+
+.scheduleset {
+                position: absolute;
+                top: 6em;
+                right: 3%;
+                font-size: 2.188em;
+                color: aliceblue;
+}
+#form1 {
+        border-style: outset;
+     border-width: medium;
+     width: 60%;
+     height: 105%;
+     z-index: 1;
+     left: 2%;
+     top:15em;
+     position: absolute;
+     background-image: url('IMAGES/Untitled2.png');
+     background-position: center;
+     font-family: 'Comic Sans MS';
+     font-size: 20px;
+}
+
+.divMain {
+    border-style: outset;
+    border-width: medium;
+    width: 60%;
+    height: 100%;
+    left: 2%;
+    top: 15em;
+    position: absolute;
+   
+    background-color:#558b2f;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+
+    .bg {
+        margin:0px;
+    background-image: url("IMAGES/Untitled.png");
+  
+    height: 100%; 
+    width:100%;
+    position:absolute;
+    
+}
+.sidebar {
+    position: absolute;
+    height: 70%;
+    width: 30%;
+    z-index: 1;
+    right: 2%;
+    
+    bottom: -105%;
+        background-color:#558b2f;
+    border: outset;
+}
+
+    .logo{
+        position:absolute;
+        top:2.99em;
+        right:2%;
+        height:9.38em;
+        width:8.75em;
+    }
+
+  
+    .footer
+{
+    position:absolute;
+    height:50px;
+    background-color:seagreen;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:#FFFFFF;
+    left:2px;
+    right:-2px;
+    width: 100%;
+    text-align:center;
+}
+
+.slogan {
+    color:black;
+    font-size: 100px;
+    font-weight:bold;
+    text-shadow: 0 0 10px mintcream;
+    font-family:'Comic Sans MS';
+    margin-left:63%;
+    margin-top:20%; 
+}
+
+
+.text
+{
+     text-align:center; 
+     font-size:x-large; 
+     color:antiquewhite;
+      margin-left:10px;
+       margin-right:10px;
+
+}
+
+.aboutus{
+    text-align:center;
+
+}

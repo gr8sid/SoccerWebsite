@@ -1,0 +1,26 @@
+﻿.gridMain {
+    border-right: gainsboro thin solid;
+    border-left: gainsboro thin solid;
+    border-top: gainsboro thin solid;
+    border-bottom: gainsboro thin solid;
+    background-color: #333333;
+    width:400px;
+}
+
+.gridRow {
+    background-color: #FFFAFA;
+}
+.gridSelectedRow {
+    background-color: #E6E6FA;
+}
+.gridHeader {
+    background-color: #ADD8E6;
+    font-weight:bold;
+    text-align:left;
+}
+
+.widelable{
+    display: -moz-inline-block;
+    display: inline-block;
+    width:100px;
+}
